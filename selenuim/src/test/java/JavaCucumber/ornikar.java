@@ -25,7 +25,7 @@ public class ornikar {
 		System.setProperty("webdriver.chrome.driver", "src/test/ressources/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
 	}
 
 	@Given("acceder a l url {string}")
